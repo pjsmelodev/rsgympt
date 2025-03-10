@@ -3,11 +3,19 @@ using RSGymPT.Menus;
 
 namespace RSGymPT
 {
-	public class Program
+	//<summary>
+	//The main entry point for the application.
+	//Responsible for initializing the login menu.
+	//</summary>
+    public class Program
 	{
-		public static void Main(string[] args)
+		//<summary>
+		//Main method that starts the application.
+		//</summary>
+		//<param name = "args" > The command-line arguments (not used).</param>
+        public static void Main(string[] args)
 		{
-			
+			LoginMenu.DisplayLoginMenu();
 
             Utilities.PauseTerminal();
         }
