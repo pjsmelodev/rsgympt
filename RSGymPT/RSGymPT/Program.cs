@@ -15,7 +15,7 @@ namespace RSGymPT
 		//<param name = "args" > The command-line arguments (not used).</param>
         public static void Main(string[] args)
 		{
-			LoginMenu.DisplayLoginMenu();
+			
 
             Utilities.PauseTerminal();
         }
